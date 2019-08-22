@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="modeTransporation2g" duration-ms="17016" started-at="2019-08-19T07:46:56Z" finished-at="2019-08-19T07:47:13Z">
+    <groups>
+    </groups>
+    <test name="Mode Transportation 2G" duration-ms="17016" started-at="2019-08-19T07:46:56Z" finished-at="2019-08-19T07:47:13Z">
+      <class name="com.modeTransportation2G.testCases.TC_LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.modeTransportation2G.testCases.TC_LoginTest@3590fc5b]" name="setup" is-config="true" duration-ms="4071" started-at="2019-08-19T07:46:56Z" finished-at="2019-08-19T07:47:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.modeTransportation2G.testCases.TC_LoginTest@3590fc5b]" name="loginTest" duration-ms="12055" started-at="2019-08-19T07:47:00Z" finished-at="2019-08-19T07:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.modeTransportation2G.testCases.TC_LoginTest@3590fc5b]" name="tearDown" is-config="true" duration-ms="720" started-at="2019-08-19T07:47:12Z" finished-at="2019-08-19T07:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.modeTransportation2G.testCases.TC_LoginTest -->
+    </test> <!-- Mode Transportation 2G -->
+  </suite> <!-- modeTransporation2g -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name = "modeTransporation2g">
+
+<listeners>
+
+<listener class-name = "utilities.Reporting"/>
+</listeners>
+
+
+
+	<test name = "Mode Transportation 2G">
+		<parameter name = "browser" value = "chrome"/>
+		<classes>
+			<class name = "com.modeTransportation2G.testCases.TC_LoginTest" />
+		</classes>
+	</test>
+
+</suite>
